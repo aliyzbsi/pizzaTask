@@ -282,3 +282,47 @@ body {
   line-height: 25px;
   size: 20px;
 }
+
+footer {
+  margin-top: 5rem;
+  background-color: black;
+  padding: 3rem 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  color: #ffffff;
+}
+.main-footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+}
+.main-footer-container address {
+  display: block;
+  line-height: 4;
+}
+.second-footer-container {
+  max-width: 300px;
+  height: 320px;
+  line-height: 2;
+}
+.instagram-container {
+  max-width: 300px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  gap: 3rem;
+}
+
+.picture-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
