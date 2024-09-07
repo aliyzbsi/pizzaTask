@@ -187,3 +187,98 @@ body {
 .red-text {
   color: #d80027;
 }
+
+.preferred-section {
+  margin-top: 5rem;
+}
+.preferred-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+}
+
+.satisfy-text {
+  font-family: "Satisfy", sans-serif;
+
+  color: #ce2829;
+  font-size: 32px;
+}
+
+.barlow-text {
+  font-size: 42px;
+}
+
+.navigator-preferred {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.navigator-preferred button {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: black;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 0.7rem 2rem;
+}
+.active:hover {
+  background-color: black;
+  color: white;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  font-family: "Barlow";
+}
+.option-first {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+}
+.option-second {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+}
+.option-third {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+}
+.option-first div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.option-second div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.option-third div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-text {
+  font-size: 22px;
+
+  line-height: 30px;
+}
+.bold-text {
+  font-weight: bold;
+  line-height: 25px;
+  size: 20px;
+}
