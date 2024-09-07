@@ -1,4 +1,5 @@
 body {
+  background-color: #faf7f2;
   margin: 0;
 }
 .header__home {
@@ -84,11 +85,11 @@ body {
 .menu-section {
   display: flex;
   gap: 10px; /* Sol ve sağ taraf arasındaki boşluk */
-  width: 100%;
-  height: 100vh;
+
   margin-top: 100px;
   justify-content: center;
 }
+
 .main-container {
   width: 531px;
   height: 449px;
@@ -110,16 +111,19 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .contents .ozel {
   margin: 35px;
   font-family: "Quattrocento";
   font-size: 68px;
   margin-bottom: 10px;
 }
+
 .contents p {
   margin: 10px;
   margin-left: 35px;
 }
+
 .button-btn {
   margin: 10px;
   padding: 15px 35px;
@@ -130,6 +134,7 @@ body {
   cursor: pointer;
   margin-left: 45px;
 }
+
 .contents-second {
   background: url("public/assets/iteration-2/cta/kart-2.png");
   background-size: cover;
@@ -143,11 +148,13 @@ body {
   justify-content: flex-start;
   color: white;
 }
+
 .contents-second p {
   font-family: "Barlow", sans-serif;
   font-size: 32px;
   margin-left: 30px;
 }
+
 .button-btn-second {
   padding: 15px 35px;
   margin-left: 45px;
@@ -164,12 +171,10 @@ body {
   background-position: center;
   width: 100%;
   height: 50%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-
   border-radius: 12px;
 }
 
