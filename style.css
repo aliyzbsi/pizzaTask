@@ -379,7 +379,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: 150vh;
+    background-size: 120vh;
     max-height: 600px;
   }
   .container-layout {
@@ -515,7 +515,7 @@ footer {
     flex-direction: column;
   }
   .footer-container {
-    display: inline-block;
+    display: block;
     align-self: center;
   }
   .address-line,
